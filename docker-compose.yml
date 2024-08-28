@@ -3,6 +3,7 @@ networks:
 
 services:
   server1:
+    container_name: server1
     networks:
       - default
     build:
@@ -14,6 +15,7 @@ services:
         OTHER_SERVERS: "server2:5001,server3:5002"
 
   server2:
+    container_name: server2
     networks:
       - default
     build:
@@ -25,6 +27,7 @@ services:
         OTHER_SERVERS: "server1:5000,server3:5002"
 
   server3:
+    container_name: server3
     networks:
       - default
     build:
