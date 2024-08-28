@@ -1,0 +1,6 @@
+[submodule "M321-Counter-Backend"]
+	path = M321-Counter-Backend
+	url = https://github.com/Karto1000/M321-Counter-Backend
+[submodule "M321-Counter-Frontend"]
+	path = M321-Counter-Frontend
+	url = https://github.com/Karto1000/M321-Counter-Frontend
